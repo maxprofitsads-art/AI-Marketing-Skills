@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative"
+  short_description: "Create paid ad copy, concepts, and review pages"
+  default_prompt: "Use $ad-creative to create ad variations from my product context, audience, and campaign objective."
