@@ -8,6 +8,7 @@ Reusable AI skills for marketing work, maintained by [maxprofitsads-art](https:/
 | --- | --- | --- |
 | [Ad Creative](skills/ad-creative/README.md) | Paid ad copy, creative concepts, performance-based iterations, video briefs, and stakeholder review pages | [Ad Creative ZIP](https://github.com/maxprofitsads-art/AI-Marketing-Skills/raw/refs/heads/main/downloads/ad-creative.zip) |
 | [Content Strategy](skills/content-strategy/README.md) | Content pillars, topic clusters, editorial roadmaps, and distribution plans | [Content Strategy ZIP](https://github.com/maxprofitsads-art/AI-Marketing-Skills/raw/refs/heads/main/downloads/content-strategy.zip) |
+| [Lead Magnets](skills/lead-magnets/README.md) | Lead magnet formats, content outlines, gating, delivery, promotion, and source-library skills | [Lead Magnets ZIP](https://github.com/maxprofitsads-art/AI-Marketing-Skills/raw/refs/heads/main/downloads/lead-magnets.zip) |
 
 ## Install Ad Creative
 
@@ -36,6 +37,16 @@ Use $skill-installer to install the skill from https://github.com/maxprofitsads-
 
 For manual installation, [download Content Strategy](https://github.com/maxprofitsads-art/AI-Marketing-Skills/raw/refs/heads/main/downloads/content-strategy.zip), extract it, and copy the whole `content-strategy` folder into the same skills directory described above. See its [README](skills/content-strategy/README.md) for details and examples.
 
+## Install Lead Magnets
+
+In Codex, paste:
+
+```text
+Use $skill-installer to install the skill from https://github.com/maxprofitsads-art/AI-Marketing-Skills/tree/main/skills/lead-magnets
+```
+
+For manual installation, [download Lead Magnets](https://github.com/maxprofitsads-art/AI-Marketing-Skills/raw/refs/heads/main/downloads/lead-magnets.zip), extract it, and copy the entire `lead-magnets` folder into your skills directory. See its [README](skills/lead-magnets/README.md) for details.
+
 ## Try it
 
 ```text
@@ -60,11 +71,23 @@ Capacity: [people, hours, and available formats]
 Evidence: [customer questions, keyword data, and existing content]
 ```
 
+Try Lead Magnets with:
+
+```text
+Use $lead-magnets to recommend a lead magnet for my ideal customer.
+Business: [what we sell]
+Audience: [who we want to attract]
+Goal: [list growth, qualified leads, or product education]
+Existing assets: [content, templates, or expertise]
+Capacity: [time, budget, and available tools]
+```
+
 ## What's included
 
 - Complete skill instructions and Codex display metadata.
 - Ad Creative: eleven reference guides, a review-page template, and twenty upstream evaluation scenarios.
 - Content Strategy: two reference guides and eight upstream evaluation scenarios.
+- Lead Magnets: five reference guides and nine upstream evaluation scenarios.
 - MIT license, source attribution, and the exact upstream revision.
 
 No additional code dependencies are required to read and use the skill's instructions. Generating actual images or videos requires suitable tools in your agent environment. Platform specifications and pricing should be checked before production. The sample evaluations are included as examples; they have not been run as a behavioral benchmark for this adaptation.
@@ -74,3 +97,5 @@ No additional code dependencies are required to read and use the skill's instruc
 Ad Creative is adapted from [Corey Haines's marketingskills](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative). Its [MIT license](skills/ad-creative/LICENSE), original copyright notice, and [adaptation details](skills/ad-creative/ATTRIBUTION.md) are included. Licensing applies to the corresponding skill files; other repository content retains its own licensing.
 
 Content Strategy is also adapted from [Corey Haines's marketingskills](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy), with its own [MIT license](skills/content-strategy/LICENSE) and [adaptation details](skills/content-strategy/ATTRIBUTION.md).
+
+Lead Magnets is adapted from [Corey Haines's marketingskills](https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets), with its own [MIT license](skills/lead-magnets/LICENSE) and [adaptation details](skills/lead-magnets/ATTRIBUTION.md).
